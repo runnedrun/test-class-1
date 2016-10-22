@@ -15,5 +15,5 @@ $("#make-blue-element").click(function() {
 })
 
 $("#blink-background").click(function() {
-  
+  $("body").css({"background": "green"})
 })
