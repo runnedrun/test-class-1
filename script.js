@@ -1,19 +1,15 @@
 var elementContainer = $("#generated-element-container")
 
 $("#make-red-element").click(function() {  
-  var newElement = $("<div>")
-  newElement.css({
-    color: "red"
-  })
+  console.log("here")
+  var newElement = makeNewElement({color: "red"})
   
-  elementContainer.append(
+  elementContainer.append(newElement)
 })
   
-function makeNewElement(){
+function makeNewElement(css){
   var newElement = $("<div>")
-  newElement.css({
-    color: "red"
-  })
+  newElement.css(css)
   
   return newElement
 }
