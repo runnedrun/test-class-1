@@ -6,10 +6,3 @@ $("#make-red-element").click(function() {
   
   elementContainer.append(newElement)
 })
-  
-function makeNewElement(css){
-  
-  
-  
-  return newElement
-}
