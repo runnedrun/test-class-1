@@ -13,3 +13,7 @@ $("#make-blue-element").click(function() {
 
   elementContainer.append(newElement)
 })
+
+$("#blink-background").click(function() {
+  
+})
